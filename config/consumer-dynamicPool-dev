@@ -1,0 +1,12 @@
+# dev 环境中，动态线程池配置
+dynamic:
+  pool:
+    author: wael
+    # 核心线城数
+    coreSize: 2
+    # 最大线程数
+    maxSize: 20
+    # 非核心线城存活时间 ms
+    keepLongTime: 100
+    # 队列的最大容量
+    queueCapacity: 20000
